@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading span {
+  font-size: 12px;
+  color: gray;
+}
+.heading h2 {
+  font-weight: 100;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 2fr));
+  margin-top: 13px;
+}
+img {
+  height: 162px;
+  width: 100%;
+}
+.title {
+  color: #2484d7;
+}
+.subtitle {
+  font-size: 14px;
+  margin-top: 7px;
+  font-weight: 100;
+  margin-right: 30px;
+}
+.text-gray {
+  color: #ccc !important;
+}
+.card {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+@media (min-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
